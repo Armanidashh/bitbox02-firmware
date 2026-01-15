@@ -3,3 +3,4 @@ tzlocal>=1.5,<2.0
 # until bitbox02 is released it must be installed from py/bitbox02
 bitbox02
 requests
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
